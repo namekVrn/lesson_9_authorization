@@ -1,0 +1,121 @@
+.header__navigation{
+    display: flex;
+    padding: 10px;
+    border: 1px solid black;
+}
+.Divider{
+  
+  background-color: #fff;
+}
+.header__login--icon{
+  text-align: center;
+  margin-top: 20px;
+  display: block;
+}
+.header__itemList{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    list-style: none;
+}
+.header__nav--items{
+    margin-right: 15px;
+    position: relative;
+}
+.header__navlink{
+  position: relative;
+}
+.header__badge{
+  position: absolute;
+  top:-17px;
+  left: 56px;
+  
+  display: block;
+}
+.header__nav--items.fix{
+    margin-left: auto;
+    background-color: rgb(28, 175, 104);
+    border-radius: 4px;
+   padding: 15px;
+}
+.fixLast{
+  
+  background-color: rgb(28, 175, 104);
+  border-radius: 4px;
+  padding: 15px;
+}
+.navLink__add{
+    color: rgb(51, 48, 48);
+    padding: 10px;
+}
+.pulse {
+    display: block;
+    border-radius: 50%;
+    background: #19dd0b;
+    cursor: pointer;
+    box-shadow: 0 0 0 rgba(96, 188, 15, 0.4);
+    animation: pulse 2s infinite;
+  }
+  .pulse:hover {
+    animation: none;
+  }
+  
+  @-webkit-keyframes pulse {
+    0% {
+      -webkit-box-shadow: 0 0 0 0 rgba(96, 188, 15, 0.4);
+    }
+    70% {
+        -webkit-box-shadow: 0 0 0 10px rgba(204,169,44, 0);
+    }
+    100% {
+        -webkit-box-shadow: 0 0 0 0 rgba(204,169,44, 0);
+    }
+  }
+  @keyframes pulse {
+    0% {
+      -moz-box-shadow: 0 0 0 0 rgba(204,169,44, 0.4);
+      box-shadow: 0 0 0 0 rgba(204,169,44, 0.4);
+    }
+    70% {
+        -moz-box-shadow: 0 0 0 10px rgba(204,169,44, 0);
+        box-shadow: 0 0 0 10px rgba(204,169,44, 0);
+    }
+    100% {
+        -moz-box-shadow: 0 0 0 0 rgba(204,169,44, 0);
+        box-shadow: 0 0 0 0 rgba(204,169,44, 0);
+    }
+  }
+footer{
+    margin-top: auto;
+    text-align: center;
+}
+
+
+/* //layout */
+
+.trigger{
+  margin-left: 30px;
+}
+#components-layout-demo-custom-trigger .trigger {
+  padding: 0 24px;
+  font-size: 18px;
+  line-height: 64px;
+  cursor: pointer;
+  transition: color 0.3s;
+}
+
+#components-layout-demo-custom-trigger .trigger:hover {
+  color: #1890ff;
+}
+.header__iconSlide{
+  margin-left: 30px;
+}
+#components-layout-demo-custom-trigger .logo {
+  height: 32px;
+  margin: 16px;
+  background: rgba(255, 255, 255, 0.3);
+}
+
+.site-layout .site-layout-background {
+  background: #fff;
+}

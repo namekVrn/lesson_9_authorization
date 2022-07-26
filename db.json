@@ -1,0 +1,29 @@
+{
+  "clients": [
+    {
+      "surname": "Писюлин",
+      "name": "Антон",
+      "patronymic": "Сергеевич",
+      "dateBirth": "1991-12-02",
+      "gender": "Мужской",
+      "tel": "34343525235",
+      "image": "",
+      "comment": "Конь",
+      "addressReg": "Переулок здоровья 88а",
+      "dateMontage": "2022-12-06",
+      "dateСompletion": "2022-12-06",
+      "date": "1 июня 2022 г., 16:32:25",
+      "id": 3
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}
