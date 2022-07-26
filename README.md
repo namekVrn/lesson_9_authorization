@@ -4,4 +4,4 @@ react,
 redux-toolkit,
 Ant-design,
 api-server.
-Приложение работает только на локальной машине. 
+
